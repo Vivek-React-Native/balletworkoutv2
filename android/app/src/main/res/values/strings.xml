@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ballet Workout</string>
+
+    <string name="facebook_app_id">512497292604701</string>
+    <string name="default_notification_channel_id">Ballet Workout</string>
+    <string name="fb_login_protocol_scheme">fb512497292604701</string>
+</resources>

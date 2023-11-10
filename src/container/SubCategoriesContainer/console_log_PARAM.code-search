@@ -1,0 +1,13 @@
+# Query: console.log('PARAM
+# ContextLines: 1
+
+2 results - 2 files
+
+src/container/SubCategoriesContainer/index.tsx:
+  29          console.log('this.props.navigation.getParam ===================', this.props.navigation.getParam('category'));
+  30:         console.log('PARAMS.......',JSON.stringify(this.props.navigation.state.params))
+  31          const { id, type } = this.props.navigation.getParam('category');
+
+src/stories/screens/Home/index.tsx:
+  51      const {navigation, store} = this.props;
+  53  

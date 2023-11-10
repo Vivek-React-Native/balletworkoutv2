@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "92575776524",
+    "firebase_url": "https://api-6665749258725177223-361452.firebaseio.com",
+    "project_id": "api-6665749258725177223-361452",
+    "storage_bucket": "api-6665749258725177223-361452.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92575776524:android:7e702d5fe7ecf0b7",
+        "android_client_info": {
+          "package_name": "be.balletworkout.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92575776524-kp2rihe7lsdv22a7cta2v1nnh9349dt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwCXqzSYBUVxxwGYjB1wVcyAhDjzQz1f4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

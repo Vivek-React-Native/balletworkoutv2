@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EA24E29A2843D0B2EE0400 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B423C220DF048AD9AC1799A /* Poppins-Thin.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		145D928D8B374EB1A308C206 /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2A95F0A1CD04023A7D31DB9 /* Montserrat-ExtraBoldItalic.otf */; };
+		1B6C17596B29479CAABDFF29 /* MontserratAlternates-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FCD81299BCC4D6DBE555566 /* MontserratAlternates-LightItalic.otf */; };
+		1EB665572A054EA9B5F6407C /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD6C08525892483CBB2AF94E /* Montserrat-Black.otf */; };
+		201A688C63D843F7AF1EBF7E /* MontserratAlternates-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB4C295C58E34C08914DC10B /* MontserratAlternates-BlackItalic.otf */; };
+		273BE0A4F5F843969B0AE425 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359AFF3C045D4674A09795F3 /* Poppins-Medium.ttf */; };
+		2E8436A0238047B1006514A2 /* ballet_notif_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E84369F238047B1006514A2 /* ballet_notif_1.mp3 */; };
+		2E889CDB237C38890012737C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E889CDA237C38890012737C /* StoreKit.framework */; };
+		3D9CD4D50AE34120A2101A67 /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2F1E2923E4CBA8BF25265 /* Montserrat-BoldItalic.otf */; };
+		3E4D406D021F4206800FA7CF /* MontserratAlternates-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30802C712DED4D72A42495A9 /* MontserratAlternates-ExtraLightItalic.otf */; };
+		4187FFC636C24531B9CD3B3C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDB3976D1B64022AAA73EDE /* Poppins-SemiBold.ttf */; };
+		424F6EC2C1524333A31E0EFA /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FFE30627A3D9474A898DA143 /* MontserratAlternates-Regular.otf */; };
+		42502581943E4113960F8787 /* MontserratAlternates-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B988C4A328614569A6B0AF73 /* MontserratAlternates-SemiBoldItalic.otf */; };
+		45E10A026E974767AA638F8C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7166EAB5C244336BEDE6320 /* Poppins-SemiBoldItalic.ttf */; };
+		48884BDA05A446D791003F19 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3670576FFB643C4BF28E515 /* Montserrat-Light.otf */; };
+		494A5E5A9FC8434C99B8D3D7 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10BACE456D204E0EAF7FC9C5 /* MontserratAlternates-Light.otf */; };
+		4BCA5802C59D4A9C8B4677E9 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A970F196639541E6B7326C29 /* MontserratAlternates-Medium.otf */; };
+		4E8204A2B212AA9DB7AB1AAD /* libPods-balletWorkout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A2AC40BA07C4BD7158B657 /* libPods-balletWorkout.a */; };
+		53348229FD3C467E95AEB34B /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A20259115BD7499CB2203D30 /* MontserratAlternates-ExtraLight.otf */; };
+		538E938DE8C54992AB7EE9F1 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2FEE12336B4B1FB338DCEC /* MontserratAlternates-SemiBold.otf */; };
+		631870D8EC5345169D0D3244 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 345C29041EAE43EB98CF88AB /* Montserrat-Regular.otf */; };
+		645DE6BF018443ACACDA4BDF /* MontserratAlternates-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADC4A60F91CD40A6BEFCDDED /* MontserratAlternates-ExtraBoldItalic.otf */; };
+		6AB8546481CB4C6BAA6A37D5 /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93D7A1DF27CB4001BE85E10E /* MontserratAlternates-Black.otf */; };
+		6AF225D20CED4656A030B8C9 /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1426D0BB53D24F26B7875345 /* MontserratAlternates-Thin.otf */; };
+		735191EA7DC040019AC1FD97 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E3667B357E1407C9A31A332 /* Poppins-Italic.ttf */; };
+		745D36382760999300515380 /* LaunchScreen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745D36372760999300515380 /* LaunchScreen1.storyboard */; };
+		745D363C2760AAE300515380 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 745D363B2760AAE200515380 /* splash.png */; };
+		74B381C2273EB8E50045CCB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B381C1273EB8E50045CCB6 /* GoogleService-Info.plist */; };
+		75D03CF836E345ABA0145026 /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C564004DBDD44EB9669EB87 /* Montserrat-LightItalic.otf */; };
+		7863157B41EF4B9191166157 /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC895EE34819426C81354112 /* MontserratAlternates-Italic.otf */; };
+		790C1E9D87DF4ED897E5E32F /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7EB442593D444B78F9F56A1 /* MontserratAlternates-BoldItalic.otf */; };
+		80C170C9362A4AFFB1A19C35 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E68FC52722A4A0788398345 /* Montserrat-Thin.otf */; };
+		848DB30F8FBD4037A3C1AC17 /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64EEC84AE26340B9873F0F3D /* MontserratAlternates-ExtraBold.otf */; };
+		8568DF9E0B744DE4A697D292 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3249E03D0B345539399B3CC /* Poppins-Black.ttf */; };
+		88D4F9CB27F59ACF008DEBF1 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D4F9C827F59ACE008DEBF1 /* rubicon-icon-font.ttf */; };
+		88D4F9CC27F59ACF008DEBF1 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D4F9C927F59ACF008DEBF1 /* Roboto.ttf */; };
+		88D4F9CD27F59ACF008DEBF1 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D4F9CA27F59ACF008DEBF1 /* Roboto_medium.ttf */; };
+		88D4FA0627F5C4C5008DEBF1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4FA0527F5C4C5008DEBF1 /* NotificationService.swift */; };
+		88D4FA0A27F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 88D4FA0327F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F64DF11F4D147FE9823679F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4D8975E1B834489B3EC8AE8 /* Poppins-Bold.ttf */; };
+		97EDDFAA93DA4140A2156B21 /* MontserratAlternates-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C0E7E6C664A6BAB33E4D4 /* MontserratAlternates-MediumItalic.otf */; };
+		9C3C41BC452E4CA193FC5061 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F17AE86C7F245138ED089D0 /* Poppins-ExtraBold.ttf */; };
+		A46C49D8D30B45D48BAF59D0 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB1738AC7145268D7984BC /* Montserrat-Italic.otf */; };
+		A849DDA5193B458FB7EDAD89 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF71E2A1EA4BA0958DF1A8 /* Poppins-ExtraLight.ttf */; };
+		ABFCCA7817E74A83AEBB7C81 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FDA8740E49B4026B0B561F9 /* Poppins-ExtraLightItalic.ttf */; };
+		AD07A0744ED74AD8934FB8A6 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF50C4EB5A141D5B4D4804C /* Montserrat-Medium.otf */; };
+		B0117D030FC24024B6748DB3 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 945E85E8D5E442C7B1991C2F /* Montserrat-Bold.otf */; };
+		B66BCBBBB47D403CAE76477F /* MontserratAlternates-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38CCEE40657044A4BC4853AD /* MontserratAlternates-ThinItalic.otf */; };
+		B7101B9D41E644168063C119 /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50ED86040BF544FBBBD45E4F /* Montserrat-SemiBoldItalic.otf */; };
+		B9D3621EAF6D4BCB8CA7F488 /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4131151C21A540AEB3F5D389 /* Montserrat-ExtraLightItalic.otf */; };
+		C1458BEB58414C8B86D20F53 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DEF6B4031497C9C60FEFD /* Poppins-Light.ttf */; };
+		C3118CE6B43848FD83D6B292 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95B9311A279748D6AF93A6B7 /* Montserrat-ExtraLight.otf */; };
+		CD79D0E8149648EA807D8366 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02439075E7AD46ADB2DA3C12 /* Poppins-BlackItalic.ttf */; };
+		CE13DA362BD34A6E8445B0EC /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B5A2DF72B304837AD66CB1F /* Poppins-MediumItalic.ttf */; };
+		D81A0024C2E54247BD8F04B6 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85249F75C3F0462287B647F1 /* Montserrat-SemiBold.otf */; };
+		DAF31372CDB342AD81157203 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01E4E59E1AA4550B26B9FD2 /* Poppins-BoldItalic.ttf */; };
+		E0668294968C11DB61DE99CD /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E137FD28DEFCE85513D8030 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		E80F63DAA4234FB6996387AF /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C47C2768126740B9A9592969 /* Montserrat-ThinItalic.otf */; };
+		E845D74CE01C483998DA45DC /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16CDA214F2BC4B6681FBE632 /* Poppins-ExtraBoldItalic.ttf */; };
+		EA86C9D669C840CA969723D9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E07221EC42C4F94A5CE17E4 /* Poppins-Regular.ttf */; };
+		EB3092BE096146A5A3D6AA7F /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E95D0ED42D91441BAC5F4CCB /* AlexBrush-Regular.ttf */; };
+		EEE9F1AE279949B188731A56 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8CAB2591A3D401F9575C6AB /* Poppins-LightItalic.ttf */; };
+		F0ED0D241EC945A9B7533369 /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19F98E28B7BA46ABA72E85E7 /* Montserrat-MediumItalic.otf */; };
+		F69AD74581994494A3CADA50 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC85C3741174CF3937D2370 /* MontserratAlternates-Bold.otf */; };
+		F8D08B382A2A472AB5699F62 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C09EF3C888A345A6BE525F60 /* Montserrat-ExtraBold.otf */; };
+		F97C58C1651647A8B6C2FDA3 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3676AD239D45F58A79616E /* Poppins-ThinItalic.ttf */; };
+		FCE7850C55EA4F218D04F2A7 /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A85CB11246E44723917CDEED /* Montserrat-BlackItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88D4FA0827F5C4C5008DEBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D4FA0227F5C4C5008DEBF1;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		884E8FC727EADD3E00B562B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88D4FA0A27F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* balletWorkoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = balletWorkoutTests.m; sourceTree = "<group>"; };
+		02439075E7AD46ADB2DA3C12 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		03A2AC40BA07C4BD7158B657 /* libPods-balletWorkout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-balletWorkout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF50C4EB5A141D5B4D4804C /* Montserrat-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.otf"; path = "../fonts/Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		10BACE456D204E0EAF7FC9C5 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Light.otf"; path = "../fonts/MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* balletWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balletWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = balletWorkout/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = balletWorkout/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = balletWorkout/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = balletWorkout/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = balletWorkout/main.m; sourceTree = "<group>"; };
+		1426D0BB53D24F26B7875345 /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Thin.otf"; path = "../fonts/MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		16CDA214F2BC4B6681FBE632 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		19F98E28B7BA46ABA72E85E7 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.otf"; path = "../fonts/Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		1E68FC52722A4A0788398345 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.otf"; path = "../fonts/Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		1FCB1738AC7145268D7984BC /* Montserrat-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.otf"; path = "../fonts/Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		270D73502EA334394D15F832 /* libPods-balletWorkout-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-balletWorkout-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286DEF6B4031497C9C60FEFD /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		2C564004DBDD44EB9669EB87 /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.otf"; path = "../fonts/Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		2E44ADA2237C5BA2003EDCF3 /* libRNCPushNotificationIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCPushNotificationIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E84369F238047B1006514A2 /* ballet_notif_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ballet_notif_1.mp3; sourceTree = "<group>"; };
+		2E889CD9237C387E0012737C /* balletWorkout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = balletWorkout.entitlements; path = balletWorkout/balletWorkout.entitlements; sourceTree = "<group>"; };
+		2E889CDA237C38890012737C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2FCD81299BCC4D6DBE555566 /* MontserratAlternates-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-LightItalic.otf"; path = "../fonts/MontserratAlternates-LightItalic.otf"; sourceTree = "<group>"; };
+		30151BD5B30564FFF935866A /* Pods-balletWorkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout.debug.xcconfig"; path = "Target Support Files/Pods-balletWorkout/Pods-balletWorkout.debug.xcconfig"; sourceTree = "<group>"; };
+		30802C712DED4D72A42495A9 /* MontserratAlternates-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ExtraLightItalic.otf"; path = "../fonts/MontserratAlternates-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		345C29041EAE43EB98CF88AB /* Montserrat-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.otf"; path = "../fonts/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		359AFF3C045D4674A09795F3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		38CCEE40657044A4BC4853AD /* MontserratAlternates-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ThinItalic.otf"; path = "../fonts/MontserratAlternates-ThinItalic.otf"; sourceTree = "<group>"; };
+		3E3667B357E1407C9A31A332 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		4131151C21A540AEB3F5D389 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.otf"; path = "../fonts/Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		46EAF1FE8E54A07B31A24E4A /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		4E63D99BCB924D3FC5C8FF16 /* Pods-balletWorkout-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout-tvOS.release.xcconfig"; path = "Target Support Files/Pods-balletWorkout-tvOS/Pods-balletWorkout-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		50ED86040BF544FBBBD45E4F /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.otf"; path = "../fonts/Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		58DD7BC2F73B507FC882257B /* Pods-balletWorkout-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-balletWorkout-tvOSTests/Pods-balletWorkout-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CDB3976D1B64022AAA73EDE /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		631C3E2875C4BE8A4827028A /* Pods-balletWorkoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkoutTests.debug.xcconfig"; path = "Target Support Files/Pods-balletWorkoutTests/Pods-balletWorkoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64EEC84AE26340B9873F0F3D /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ExtraBold.otf"; path = "../fonts/MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		6E137FD28DEFCE85513D8030 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F17AE86C7F245138ED089D0 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6FBF71E2A1EA4BA0958DF1A8 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6FDA8740E49B4026B0B561F9 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		73F71A21D93E278D8483E601 /* libPods-balletWorkoutNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-balletWorkoutNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745D36372760999300515380 /* LaunchScreen1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen1.storyboard; sourceTree = "<group>"; };
+		745D363B2760AAE200515380 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../src/assets/images/splash.png; sourceTree = "<group>"; };
+		74B381C1273EB8E50045CCB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		836D6F411836E7ACD522EE3D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		85249F75C3F0462287B647F1 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.otf"; path = "../fonts/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		88D4F9C827F59ACE008DEBF1 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		88D4F9C927F59ACF008DEBF1 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
+		88D4F9CA27F59ACF008DEBF1 /* Roboto_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto_medium.ttf; sourceTree = "<group>"; };
+		88D4F9D427F59D88008DEBF1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = balletWorkoutNotificationServiceExtension/NotificationService.swift; sourceTree = "<group>"; };
+		88D4F9EC27F5B7F1008DEBF1 /* balletWorkoutDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = balletWorkoutDebug.entitlements; path = balletWorkout/balletWorkoutDebug.entitlements; sourceTree = "<group>"; };
+		88D4FA0327F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D4FA0527F5C4C5008DEBF1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		88D4FA0727F5C4C5008DEBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E60B22AEFB59CB9D88845A9 /* Pods-balletWorkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout.release.xcconfig"; path = "Target Support Files/Pods-balletWorkout/Pods-balletWorkout.release.xcconfig"; sourceTree = "<group>"; };
+		8F2FEE12336B4B1FB338DCEC /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-SemiBold.otf"; path = "../fonts/MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		93D7A1DF27CB4001BE85E10E /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Black.otf"; path = "../fonts/MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		945E85E8D5E442C7B1991C2F /* Montserrat-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.otf"; path = "../fonts/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		946A26655BECBFC277281CB3 /* Pods-balletWorkout-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-balletWorkout-tvOS/Pods-balletWorkout-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		95B9311A279748D6AF93A6B7 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.otf"; path = "../fonts/Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		9AC2F1E2923E4CBA8BF25265 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.otf"; path = "../fonts/Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		9B423C220DF048AD9AC1799A /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		9B5A2DF72B304837AD66CB1F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9B6CCA8015B82FD40086BCE4 /* Pods-balletWorkoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkoutTests.release.xcconfig"; path = "Target Support Files/Pods-balletWorkoutTests/Pods-balletWorkoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BC85C3741174CF3937D2370 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Bold.otf"; path = "../fonts/MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		9C6C0E7E6C664A6BAB33E4D4 /* MontserratAlternates-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-MediumItalic.otf"; path = "../fonts/MontserratAlternates-MediumItalic.otf"; sourceTree = "<group>"; };
+		9E07221EC42C4F94A5CE17E4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A20259115BD7499CB2203D30 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ExtraLight.otf"; path = "../fonts/MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		A7EB442593D444B78F9F56A1 /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-BoldItalic.otf"; path = "../fonts/MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
+		A85CB11246E44723917CDEED /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.otf"; path = "../fonts/Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		A8CAB2591A3D401F9575C6AB /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		A970F196639541E6B7326C29 /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Medium.otf"; path = "../fonts/MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		AC895EE34819426C81354112 /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Italic.otf"; path = "../fonts/MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		ADC4A60F91CD40A6BEFCDDED /* MontserratAlternates-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ExtraBoldItalic.otf"; path = "../fonts/MontserratAlternates-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		B68B8E13326570B39FE0A8C2 /* Pods-balletWorkoutNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkoutNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-balletWorkoutNotificationServiceExtension/Pods-balletWorkoutNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B988C4A328614569A6B0AF73 /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-SemiBoldItalic.otf"; path = "../fonts/MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		BD3676AD239D45F58A79616E /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C09EF3C888A345A6BE525F60 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.otf"; path = "../fonts/Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		C0FE5EFD0DE8FDE148328C15 /* Pods-balletWorkoutNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkoutNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-balletWorkoutNotificationServiceExtension/Pods-balletWorkoutNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		C3670576FFB643C4BF28E515 /* Montserrat-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.otf"; path = "../fonts/Montserrat-Light.otf"; sourceTree = "<group>"; };
+		C47C2768126740B9A9592969 /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.otf"; path = "../fonts/Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		CCB0C91D95055F117DFDCCCB /* libPods-balletWorkout-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-balletWorkout-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D088F29C2B1B2A342DA3DEFD /* libPods-balletWorkoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-balletWorkoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D8975E1B834489B3EC8AE8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D7929945EBBBDCCFB213FEDA /* Pods-balletWorkout-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balletWorkout-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-balletWorkout-tvOSTests/Pods-balletWorkout-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB4C295C58E34C08914DC10B /* MontserratAlternates-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-BlackItalic.otf"; path = "../fonts/MontserratAlternates-BlackItalic.otf"; sourceTree = "<group>"; };
+		DD6C08525892483CBB2AF94E /* Montserrat-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.otf"; path = "../fonts/Montserrat-Black.otf"; sourceTree = "<group>"; };
+		E01E4E59E1AA4550B26B9FD2 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E7166EAB5C244336BEDE6320 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E95D0ED42D91441BAC5F4CCB /* AlexBrush-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AlexBrush-Regular.ttf"; path = "../fonts/AlexBrush-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F2A95F0A1CD04023A7D31DB9 /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.otf"; path = "../fonts/Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		F3249E03D0B345539399B3CC /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FFE30627A3D9474A898DA143 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Regular.otf"; path = "../fonts/MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8204A2B212AA9DB7AB1AAD /* libPods-balletWorkout.a in Frameworks */,
+				2E889CDB237C38890012737C /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D4FA0027F5C4C5008DEBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0668294968C11DB61DE99CD /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* balletWorkoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* balletWorkoutTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = balletWorkoutTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* balletWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				88D4F9EC27F5B7F1008DEBF1 /* balletWorkoutDebug.entitlements */,
+				745D363B2760AAE200515380 /* splash.png */,
+				2E889CD9237C387E0012737C /* balletWorkout.entitlements */,
+				74B381C1273EB8E50045CCB6 /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				745D36372760999300515380 /* LaunchScreen1.storyboard */,
+			);
+			name = balletWorkout;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D4F9D427F59D88008DEBF1 /* NotificationService.swift */,
+				2E889CDA237C38890012737C /* StoreKit.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2E44ADA2237C5BA2003EDCF3 /* libRNCPushNotificationIOS.a */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				03A2AC40BA07C4BD7158B657 /* libPods-balletWorkout.a */,
+				CCB0C91D95055F117DFDCCCB /* libPods-balletWorkout-tvOS.a */,
+				270D73502EA334394D15F832 /* libPods-balletWorkout-tvOSTests.a */,
+				D088F29C2B1B2A342DA3DEFD /* libPods-balletWorkoutTests.a */,
+				6E137FD28DEFCE85513D8030 /* libPods-OneSignalNotificationServiceExtension.a */,
+				73F71A21D93E278D8483E601 /* libPods-balletWorkoutNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		483396A0F448B0371E65C685 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30151BD5B30564FFF935866A /* Pods-balletWorkout.debug.xcconfig */,
+				8E60B22AEFB59CB9D88845A9 /* Pods-balletWorkout.release.xcconfig */,
+				946A26655BECBFC277281CB3 /* Pods-balletWorkout-tvOS.debug.xcconfig */,
+				4E63D99BCB924D3FC5C8FF16 /* Pods-balletWorkout-tvOS.release.xcconfig */,
+				58DD7BC2F73B507FC882257B /* Pods-balletWorkout-tvOSTests.debug.xcconfig */,
+				D7929945EBBBDCCFB213FEDA /* Pods-balletWorkout-tvOSTests.release.xcconfig */,
+				631C3E2875C4BE8A4827028A /* Pods-balletWorkoutTests.debug.xcconfig */,
+				9B6CCA8015B82FD40086BCE4 /* Pods-balletWorkoutTests.release.xcconfig */,
+				836D6F411836E7ACD522EE3D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				46EAF1FE8E54A07B31A24E4A /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				B68B8E13326570B39FE0A8C2 /* Pods-balletWorkoutNotificationServiceExtension.debug.xcconfig */,
+				C0FE5EFD0DE8FDE148328C15 /* Pods-balletWorkoutNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* balletWorkout */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* balletWorkoutTests */,
+				88D4FA0427F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				483396A0F448B0371E65C685 /* Pods */,
+				E4F1ED14C00243BBBA75605E /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* balletWorkout.app */,
+				88D4FA0327F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88D4FA0427F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				88D4FA0527F5C4C5008DEBF1 /* NotificationService.swift */,
+				88D4FA0727F5C4C5008DEBF1 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		E4F1ED14C00243BBBA75605E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E84369F238047B1006514A2 /* ballet_notif_1.mp3 */,
+				E95D0ED42D91441BAC5F4CCB /* AlexBrush-Regular.ttf */,
+				DD6C08525892483CBB2AF94E /* Montserrat-Black.otf */,
+				A85CB11246E44723917CDEED /* Montserrat-BlackItalic.otf */,
+				945E85E8D5E442C7B1991C2F /* Montserrat-Bold.otf */,
+				9AC2F1E2923E4CBA8BF25265 /* Montserrat-BoldItalic.otf */,
+				C09EF3C888A345A6BE525F60 /* Montserrat-ExtraBold.otf */,
+				F2A95F0A1CD04023A7D31DB9 /* Montserrat-ExtraBoldItalic.otf */,
+				95B9311A279748D6AF93A6B7 /* Montserrat-ExtraLight.otf */,
+				4131151C21A540AEB3F5D389 /* Montserrat-ExtraLightItalic.otf */,
+				1FCB1738AC7145268D7984BC /* Montserrat-Italic.otf */,
+				C3670576FFB643C4BF28E515 /* Montserrat-Light.otf */,
+				2C564004DBDD44EB9669EB87 /* Montserrat-LightItalic.otf */,
+				0DF50C4EB5A141D5B4D4804C /* Montserrat-Medium.otf */,
+				19F98E28B7BA46ABA72E85E7 /* Montserrat-MediumItalic.otf */,
+				345C29041EAE43EB98CF88AB /* Montserrat-Regular.otf */,
+				85249F75C3F0462287B647F1 /* Montserrat-SemiBold.otf */,
+				50ED86040BF544FBBBD45E4F /* Montserrat-SemiBoldItalic.otf */,
+				1E68FC52722A4A0788398345 /* Montserrat-Thin.otf */,
+				C47C2768126740B9A9592969 /* Montserrat-ThinItalic.otf */,
+				93D7A1DF27CB4001BE85E10E /* MontserratAlternates-Black.otf */,
+				DB4C295C58E34C08914DC10B /* MontserratAlternates-BlackItalic.otf */,
+				9BC85C3741174CF3937D2370 /* MontserratAlternates-Bold.otf */,
+				A7EB442593D444B78F9F56A1 /* MontserratAlternates-BoldItalic.otf */,
+				64EEC84AE26340B9873F0F3D /* MontserratAlternates-ExtraBold.otf */,
+				ADC4A60F91CD40A6BEFCDDED /* MontserratAlternates-ExtraBoldItalic.otf */,
+				A20259115BD7499CB2203D30 /* MontserratAlternates-ExtraLight.otf */,
+				30802C712DED4D72A42495A9 /* MontserratAlternates-ExtraLightItalic.otf */,
+				AC895EE34819426C81354112 /* MontserratAlternates-Italic.otf */,
+				10BACE456D204E0EAF7FC9C5 /* MontserratAlternates-Light.otf */,
+				2FCD81299BCC4D6DBE555566 /* MontserratAlternates-LightItalic.otf */,
+				A970F196639541E6B7326C29 /* MontserratAlternates-Medium.otf */,
+				9C6C0E7E6C664A6BAB33E4D4 /* MontserratAlternates-MediumItalic.otf */,
+				FFE30627A3D9474A898DA143 /* MontserratAlternates-Regular.otf */,
+				8F2FEE12336B4B1FB338DCEC /* MontserratAlternates-SemiBold.otf */,
+				B988C4A328614569A6B0AF73 /* MontserratAlternates-SemiBoldItalic.otf */,
+				1426D0BB53D24F26B7875345 /* MontserratAlternates-Thin.otf */,
+				38CCEE40657044A4BC4853AD /* MontserratAlternates-ThinItalic.otf */,
+				F3249E03D0B345539399B3CC /* Poppins-Black.ttf */,
+				88D4F9CA27F59ACF008DEBF1 /* Roboto_medium.ttf */,
+				88D4F9C927F59ACF008DEBF1 /* Roboto.ttf */,
+				88D4F9C827F59ACE008DEBF1 /* rubicon-icon-font.ttf */,
+				02439075E7AD46ADB2DA3C12 /* Poppins-BlackItalic.ttf */,
+				D4D8975E1B834489B3EC8AE8 /* Poppins-Bold.ttf */,
+				E01E4E59E1AA4550B26B9FD2 /* Poppins-BoldItalic.ttf */,
+				6F17AE86C7F245138ED089D0 /* Poppins-ExtraBold.ttf */,
+				16CDA214F2BC4B6681FBE632 /* Poppins-ExtraBoldItalic.ttf */,
+				6FBF71E2A1EA4BA0958DF1A8 /* Poppins-ExtraLight.ttf */,
+				6FDA8740E49B4026B0B561F9 /* Poppins-ExtraLightItalic.ttf */,
+				3E3667B357E1407C9A31A332 /* Poppins-Italic.ttf */,
+				286DEF6B4031497C9C60FEFD /* Poppins-Light.ttf */,
+				A8CAB2591A3D401F9575C6AB /* Poppins-LightItalic.ttf */,
+				359AFF3C045D4674A09795F3 /* Poppins-Medium.ttf */,
+				9B5A2DF72B304837AD66CB1F /* Poppins-MediumItalic.ttf */,
+				9E07221EC42C4F94A5CE17E4 /* Poppins-Regular.ttf */,
+				5CDB3976D1B64022AAA73EDE /* Poppins-SemiBold.ttf */,
+				E7166EAB5C244336BEDE6320 /* Poppins-SemiBoldItalic.ttf */,
+				9B423C220DF048AD9AC1799A /* Poppins-Thin.ttf */,
+				BD3676AD239D45F58A79616E /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* balletWorkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "balletWorkout" */;
+			buildPhases = (
+				6BFA6A7ECADA84B6C273EC23 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				59579D5B9E6075D877683906 /* [CP] Copy Pods Resources */,
+				1B5ED32B2333A45ED5D15A0F /* [CP-User] [RNFB] Core Configuration */,
+				3603EE56237A7150A882CA8F /* [CP-User] [RNFB] Crashlytics Configuration */,
+				884E8FC727EADD3E00B562B6 /* Embed App Extensions */,
+				825CA26BF67BFC5B7B131FD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D4FA0927F5C4C5008DEBF1 /* PBXTargetDependency */,
+			);
+			name = balletWorkout;
+			productName = balletWorkout;
+			productReference = 13B07F961A680F5B00A75B9A /* balletWorkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88D4FA0227F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D4FA0B27F5C4C5008DEBF1 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				77146BE80931BBBC2DBE81BC /* [CP] Check Pods Manifest.lock */,
+				88D4F9FF27F5C4C5008DEBF1 /* Sources */,
+				88D4FA0027F5C4C5008DEBF1 /* Frameworks */,
+				88D4FA0127F5C4C5008DEBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 88D4FA0327F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 74QK5R4BDM;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					88D4FA0227F5C4C5008DEBF1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						DevelopmentTeam = 74QK5R4BDM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "balletWorkout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* balletWorkout */,
+				88D4FA0227F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				EB3092BE096146A5A3D6AA7F /* AlexBrush-Regular.ttf in Resources */,
+				1EB665572A054EA9B5F6407C /* Montserrat-Black.otf in Resources */,
+				FCE7850C55EA4F218D04F2A7 /* Montserrat-BlackItalic.otf in Resources */,
+				B0117D030FC24024B6748DB3 /* Montserrat-Bold.otf in Resources */,
+				3D9CD4D50AE34120A2101A67 /* Montserrat-BoldItalic.otf in Resources */,
+				F8D08B382A2A472AB5699F62 /* Montserrat-ExtraBold.otf in Resources */,
+				145D928D8B374EB1A308C206 /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				C3118CE6B43848FD83D6B292 /* Montserrat-ExtraLight.otf in Resources */,
+				B9D3621EAF6D4BCB8CA7F488 /* Montserrat-ExtraLightItalic.otf in Resources */,
+				745D363C2760AAE300515380 /* splash.png in Resources */,
+				A46C49D8D30B45D48BAF59D0 /* Montserrat-Italic.otf in Resources */,
+				48884BDA05A446D791003F19 /* Montserrat-Light.otf in Resources */,
+				75D03CF836E345ABA0145026 /* Montserrat-LightItalic.otf in Resources */,
+				AD07A0744ED74AD8934FB8A6 /* Montserrat-Medium.otf in Resources */,
+				F0ED0D241EC945A9B7533369 /* Montserrat-MediumItalic.otf in Resources */,
+				631870D8EC5345169D0D3244 /* Montserrat-Regular.otf in Resources */,
+				D81A0024C2E54247BD8F04B6 /* Montserrat-SemiBold.otf in Resources */,
+				B7101B9D41E644168063C119 /* Montserrat-SemiBoldItalic.otf in Resources */,
+				80C170C9362A4AFFB1A19C35 /* Montserrat-Thin.otf in Resources */,
+				E80F63DAA4234FB6996387AF /* Montserrat-ThinItalic.otf in Resources */,
+				74B381C2273EB8E50045CCB6 /* GoogleService-Info.plist in Resources */,
+				6AB8546481CB4C6BAA6A37D5 /* MontserratAlternates-Black.otf in Resources */,
+				201A688C63D843F7AF1EBF7E /* MontserratAlternates-BlackItalic.otf in Resources */,
+				2E8436A0238047B1006514A2 /* ballet_notif_1.mp3 in Resources */,
+				F69AD74581994494A3CADA50 /* MontserratAlternates-Bold.otf in Resources */,
+				790C1E9D87DF4ED897E5E32F /* MontserratAlternates-BoldItalic.otf in Resources */,
+				848DB30F8FBD4037A3C1AC17 /* MontserratAlternates-ExtraBold.otf in Resources */,
+				645DE6BF018443ACACDA4BDF /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
+				53348229FD3C467E95AEB34B /* MontserratAlternates-ExtraLight.otf in Resources */,
+				3E4D406D021F4206800FA7CF /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
+				7863157B41EF4B9191166157 /* MontserratAlternates-Italic.otf in Resources */,
+				494A5E5A9FC8434C99B8D3D7 /* MontserratAlternates-Light.otf in Resources */,
+				88D4F9CD27F59ACF008DEBF1 /* Roboto_medium.ttf in Resources */,
+				1B6C17596B29479CAABDFF29 /* MontserratAlternates-LightItalic.otf in Resources */,
+				4BCA5802C59D4A9C8B4677E9 /* MontserratAlternates-Medium.otf in Resources */,
+				97EDDFAA93DA4140A2156B21 /* MontserratAlternates-MediumItalic.otf in Resources */,
+				424F6EC2C1524333A31E0EFA /* MontserratAlternates-Regular.otf in Resources */,
+				538E938DE8C54992AB7EE9F1 /* MontserratAlternates-SemiBold.otf in Resources */,
+				42502581943E4113960F8787 /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
+				6AF225D20CED4656A030B8C9 /* MontserratAlternates-Thin.otf in Resources */,
+				B66BCBBBB47D403CAE76477F /* MontserratAlternates-ThinItalic.otf in Resources */,
+				8568DF9E0B744DE4A697D292 /* Poppins-Black.ttf in Resources */,
+				745D36382760999300515380 /* LaunchScreen1.storyboard in Resources */,
+				CD79D0E8149648EA807D8366 /* Poppins-BlackItalic.ttf in Resources */,
+				8F64DF11F4D147FE9823679F /* Poppins-Bold.ttf in Resources */,
+				DAF31372CDB342AD81157203 /* Poppins-BoldItalic.ttf in Resources */,
+				9C3C41BC452E4CA193FC5061 /* Poppins-ExtraBold.ttf in Resources */,
+				E845D74CE01C483998DA45DC /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				88D4F9CB27F59ACF008DEBF1 /* rubicon-icon-font.ttf in Resources */,
+				A849DDA5193B458FB7EDAD89 /* Poppins-ExtraLight.ttf in Resources */,
+				88D4F9CC27F59ACF008DEBF1 /* Roboto.ttf in Resources */,
+				ABFCCA7817E74A83AEBB7C81 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				735191EA7DC040019AC1FD97 /* Poppins-Italic.ttf in Resources */,
+				C1458BEB58414C8B86D20F53 /* Poppins-Light.ttf in Resources */,
+				EEE9F1AE279949B188731A56 /* Poppins-LightItalic.ttf in Resources */,
+				273BE0A4F5F843969B0AE425 /* Poppins-Medium.ttf in Resources */,
+				CE13DA362BD34A6E8445B0EC /* Poppins-MediumItalic.ttf in Resources */,
+				EA86C9D669C840CA969723D9 /* Poppins-Regular.ttf in Resources */,
+				4187FFC636C24531B9CD3B3C /* Poppins-SemiBold.ttf in Resources */,
+				45E10A026E974767AA638F8C /* Poppins-SemiBoldItalic.ttf in Resources */,
+				01EA24E29A2843D0B2EE0400 /* Poppins-Thin.ttf in Resources */,
+				F97C58C1651647A8B6C2FDA3 /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D4FA0127F5C4C5008DEBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		1B5ED32B2333A45ED5D15A0F /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		3603EE56237A7150A882CA8F /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		59579D5B9E6075D877683906 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balletWorkout/Pods-balletWorkout-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balletWorkout/Pods-balletWorkout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFA6A7ECADA84B6C273EC23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-balletWorkout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77146BE80931BBBC2DBE81BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825CA26BF67BFC5B7B131FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-balletWorkout/Pods-balletWorkout-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignal.framework/OneSignal",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignalCore/OneSignalCore.framework/OneSignalCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignalExtension/OneSignalExtension.framework/OneSignalExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignalOutcomes/OneSignalOutcomes.framework/OneSignalOutcomes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneSignal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneSignalCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneSignalExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneSignalOutcomes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-balletWorkout/Pods-balletWorkout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D4F9FF27F5C4C5008DEBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D4FA0627F5C4C5008DEBF1 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88D4FA0927F5C4C5008DEBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D4FA0227F5C4C5008DEBF1 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 88D4FA0827F5C4C5008DEBF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = balletWorkout;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30151BD5B30564FFF935866A /* Pods-balletWorkout.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = balletWorkout/balletWorkoutDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					/Users/sagarguhe/Documents/FacebookSDK,
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = balletWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.balletworkout.balletWorkout.app;
+				PRODUCT_NAME = balletWorkout;
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProvision;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E60B22AEFB59CB9D88845A9 /* Pods-balletWorkout.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = balletWorkout/balletWorkout.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Miessen Consulting (74QK5R4BDM)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					/Users/sagarguhe/Documents/FacebookSDK,
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = balletWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = be.balletworkout.balletWorkout.app;
+				PRODUCT_NAME = balletWorkout;
+				PROVISIONING_PROFILE_SPECIFIER = DistributeProvision;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Maros Zitny (F382Q4LQFN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Maros Zitny (F382Q4LQFN)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Miessen Consulting (74QK5R4BDM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Miessen Consulting (74QK5R4BDM)";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88D4FA0C27F5C4C5008DEBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836D6F411836E7ACD522EE3D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = be.balletworkout.balletWorkout.app.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88D4FA0D27F5C4C5008DEBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EAF1FE8E54A07B31A24E4A /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Miessen Consulting (74QK5R4BDM)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 74QK5R4BDM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Facebook. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = be.balletworkout.balletWorkout.app.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = OneSignalPushProfile;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "balletWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "balletWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D4FA0B27F5C4C5008DEBF1 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D4FA0C27F5C4C5008DEBF1 /* Debug */,
+				88D4FA0D27F5C4C5008DEBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

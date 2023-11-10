@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>92575776524-0odln91j8s3931sb4bicqd05aofgbvgv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.92575776524-0odln91j8s3931sb4bicqd05aofgbvgv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmxnbqy-PvL90i0y_pYhQ5XT3PsUcSt2M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>92575776524</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>be.balletworkout.balletWorkout.app</string>
+	<key>PROJECT_ID</key>
+	<string>api-6665749258725177223-361452</string>
+	<key>STORAGE_BUCKET</key>
+	<string>api-6665749258725177223-361452.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:92575776524:ios:78b31fb1392eebb6</string>
+	<key>DATABASE_URL</key>
+	<string>https://api-6665749258725177223-361452.firebaseio.com</string>
+</dict>
+</plist>
